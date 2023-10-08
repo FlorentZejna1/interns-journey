@@ -1,7 +1,6 @@
 # Interns Journey
 
 ### Home
-![Home](https://i.imgur.com/QTUC61V.png)
 
 ### Task Details
 ![Tasks](https://i.imgur.com/DgYdDH3.png)
