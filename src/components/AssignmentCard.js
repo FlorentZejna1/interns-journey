@@ -46,7 +46,7 @@ const AssignmentCard = ({ assignments }) => {
                   <div className="media">
                     <img
                       className="mr-3 rounded-circle"
-                      src="https://incodeks.com/assets/team_images/petriti.jpeg"
+                      src="https://avatars.githubusercontent.com/u/124667992?v=4"
                       alt="Generic placeholder"
                       style={{ maxWidth: 50 }}
                     />
