@@ -16,7 +16,7 @@
 
 ##### 1. Clone the project from GitHub: Interns can clone the project from the current repository. This will download the entire project to their local machine.
 
-`git clone https://github.com/petrit-incodeks/interns-journey`
+`git clone https://github.com/FlorentZejna1/interns-journey.git`
 
 `cd interns-journey`
 
