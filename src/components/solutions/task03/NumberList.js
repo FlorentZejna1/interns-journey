@@ -1,9 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 
 function NumberList (){
-    const number = [1,2,3,4,5,6,7,8,9,10]
-    const listnumber = number.map(number => <li>{number}</li>);
-    return <ui>{listnumber}</ui>
+    const [num, setNum] = useState([1,2,3,4,5,6,7,8,9,10])
+    const list = num.map((num) => 
+        <li>{num}</li>
+    )
+    return (
+        <ul>{list}</ul>
+        )
 }
 
 export default NumberList
