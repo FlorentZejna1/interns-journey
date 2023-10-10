@@ -2,16 +2,18 @@ import React, {useState} from "react";
 
 
 function Button (){
-    const [click, setClick] = useState(false)
-    return (
-        
-        click? <button >Clicked</button>
-        :<button onClick={
-            (e) => {setClick(true)
-        }}>Click ME!</button>
-        
-        
-    )
+    const buttonText = "Click Me"
+    const [click, setClick] = useState(buttonText)
+    
+    function handleClick (){
+        setClick('Clicked')
+
+        setTimeout(() => {
+            setClick(buttonText);
+        },2000);
+    }
+    
+    return <button className="button"onClick={handleClick}>{click}</button>
 }
 
 export default Button
