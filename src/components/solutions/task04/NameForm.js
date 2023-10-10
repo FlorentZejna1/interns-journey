@@ -6,8 +6,9 @@ function NameForm (){
     const [fullname, setfullname] = useState()
 
    return(
-        <div>
-            <form 
+        <div className="form-container">
+            <form
+                className="form"
                 onSubmit={(e) => {
                 e.preventDefault()
                 setfullname(name + " "+ lastName)}}
@@ -20,8 +21,8 @@ function NameForm (){
                 type="text"
                 value={lastName}
                 onChange={(e) => {setlastName(e.target.value)}}/>
-            <div className="submit-button">
-                <button >Submit</button>
+            <div>
+                <button className="submit-button">Submit</button>
                 <h1>{fullname}</h1>
              </div>
             </form>
