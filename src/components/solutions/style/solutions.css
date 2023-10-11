@@ -1,3 +1,4 @@
+
 .form-container{
     display: flex;
     justify-content: center;
@@ -22,3 +23,20 @@ form input{
 .submit-button:focus{
     outline: none;
 }
+
+.button{
+    background-color: rgb(57, 18, 93);
+    border-radius: 10px;
+    width: 100px;
+    height: 50px;
+    color: wheat;
+}
+
+.button:hover{
+    background-color: rgb(19, 19, 135);
+}
+
+.button:focus{
+    outline: none;
+}
+
