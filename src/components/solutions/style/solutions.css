@@ -1,3 +1,29 @@
+
+.form-container{
+    display: flex;
+    justify-content: center;
+    padding: 5em;
+    background-color: rgb(15, 49, 49);
+}
+form input{
+    width: 100%;
+    padding: 10px 15px;
+    margin: 5px 0;
+}
+.submit-button{
+   border-radius: 10px;
+   height: 3rem;
+   width: 5rem; 
+}
+
+.submit-button:hover{
+    background-color: aquamarine;
+}
+
+.submit-button:focus{
+    outline: none;
+}
+
 .button{
     background-color: rgb(57, 18, 93);
     border-radius: 10px;
@@ -13,3 +39,4 @@
 .button:focus{
     outline: none;
 }
+
