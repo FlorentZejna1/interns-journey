@@ -40,3 +40,24 @@ form input{
     outline: none;
 }
 
+
+.list-items{
+    list-style-type: none;
+    margin-left: 40px;
+}
+.input-field{
+    width: 20rem;
+}
+
+.input-text{
+    padding: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+}
+
+.delete-button{
+    width: 31px;
+    height: 25px;
+    font-size: 15px;
+}
+
