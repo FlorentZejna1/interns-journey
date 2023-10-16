@@ -40,10 +40,8 @@ form input{
     outline: none;
 }
 
-.input-container{
-    width: 100%;
-}
-.todolist-container{
+
+.todo-container{
     display: flex;
     background: #202020;
     align-items: center;
@@ -53,17 +51,24 @@ form input{
     padding: 1rem;
     width: 50%;
 }
-.listed-items{
+
+.input-container{
+    width: 100%;
+}
+
+.input-field{
+    width: 100%;
+    margin: 0;
+}
+
+.listed-container{
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
-.list-items:hover {
-    background: #3b3939;
-    color: #fff;
-  }
+
 .list-items{
     display: flex;
     align-items: center;
@@ -73,6 +78,12 @@ form input{
     height: 50px;
     border: 2px solid black;
 }
+
+.list-items:hover {
+    background: #3b3939;
+    color: #fff;
+  }
+
 .list-items-checkbox{
     display: flex;
     margin-right: 1rem;
@@ -80,25 +91,16 @@ form input{
     justify-content: center;
     width: 15%;
 }
-.todolist-text{
+
+.todolist-text {
     width: 75%;
     margin-top: 10px;
     font-size: 1.2rem;
-    text-overflow: ellipsis; 
-  white-space: nowrap; 
-  overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
-.input-field{
-    width: 100%;
-    margin: 0;
-}
-
-.input-text{
-    padding: 15px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 25px;
-}
 .error-label{
     color: red;
 }

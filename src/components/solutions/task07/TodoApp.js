@@ -26,7 +26,7 @@ function TodoApp(){
             setTodos(updatedTodos);
     }
     return(
-        <div className="todolist-container">
+        <div className="todo-container">
         <h1>To Do List</h1>
         <TodoForm addTodo={addTodo}/>
         <TodoList todos={todos} removeTodo={removeTodo} toggleTodo={toggleTodo}/>
