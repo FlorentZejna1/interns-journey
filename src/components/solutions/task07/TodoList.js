@@ -2,7 +2,7 @@ import React from "react";
 import Todo from "./Todo";
 function TodoList({todos, removeTodo, toggleTodo}){
     return(
-        <div>
+        <div className="listed-items">
             {todos.map(todo => (
                 <Todo 
                 id={todo.id}
