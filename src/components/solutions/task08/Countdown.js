@@ -3,13 +3,13 @@ import "../style/solutions.css"
 
 
 function Countdown() {
-  const [timer, setTimer] = useState("");
+  const [timer, setTimer] = useState(0);
   const [start, setStart] = useState(false);
   useEffect(() => {
     if (start)
       if (timer > 0) {
         const interval = setInterval(() => {
-          setTimer(timer - 1);
+          setTimer((prevtimer) => timer - 1);
         }, 1000);
 
         return () => clearInterval(interval);
@@ -30,7 +30,7 @@ function Countdown() {
           onChange={handleChange}
           placeholder="Add a number"
         />
-      ) : timer == 0 ? (
+      ) : timer === 0 ? (
         <h1 className="countdown-warning">Time is out!</h1>
       ) : (
         <p className="countdown-timer">{timer}</p>
