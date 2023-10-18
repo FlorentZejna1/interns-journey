@@ -112,3 +112,64 @@ form input{
     border-radius: 10px;
 }
 
+.countdown-container {
+    background: #A28089;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vh;
+}
+
+.countdown-title {
+    font-weight: 700;
+    padding: 1.3rem;
+}
+
+.countdown-input {
+    border: 2px solid transparent;
+    width: 15em;
+    height: 2.5em;
+    padding-left: 0.8em;
+    outline: none;
+    overflow: hidden;
+    background-color: #edf7f6;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+
+.countdown-timer {
+    font-size: 50px;
+    font-weight: 700;
+    font-family: fantasy;
+}
+
+.countdown-button {
+    width: 7rem;
+    height: 2rem;
+    margin-top: 1.3rem;
+    color: black;
+    background-color: #d0b0f4;
+    border-radius: 13px;
+    outline: none;
+    border: none;
+}
+
+.countdown-button:active,
+.countdown-button:focus {
+    border: none;
+    outline: none;
+}
+
+.countdown-button:hover {
+    color: #ff7a59;
+    border: #ff7a59 solid 1px;
+    background: #fff;
+    border: none;
+    outline: none;
+}
+
+.countdown-warning {
+    color: red;
+}
