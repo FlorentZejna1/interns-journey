@@ -2,8 +2,8 @@ import { useEffect, useState } from "react"
 
 function Weather (){
     const [data, setData] = useState({})
-    const [location, setLocation] = useState("")
-    const [url, setUrl] = useState("")
+    const [location, setLocation] = useState("Ferizaj")
+    const [url, setUrl] = useState(`https://api.openweathermap.org/data/2.5/weather?q=${location}&units=metric&appid=63a17a4e61c5e6dc5aef3890ed2b47f5`)
     const [error, setError] = useState(null)
 
     
@@ -20,7 +20,6 @@ function Weather (){
         })
           .then((data) => {
             setData(data)
-            console.log(data)
             setError(null)
         })
           .catch((err) => {setError(err.message)
