@@ -162,20 +162,20 @@ export const assignments = [
         difficulty: "Hard",
         averageTime: '6~8',
       },
-      // {
-      //   id: 10,
-      //   category: "React Js",
-      //   date: "08.10.2023",
-      //   author: "Florent Zejna",
-      //   jobPosition: "Software Engineer",
-      //   title: "Create a basic quiz app",
-      //   description: "Create a basic quiz app. Users should be able to select an answer for each question and see their score at the end of the quiz.",
-      //   details: [
-      //     "In this assignment, you will create a basic quiz application using React. The application should allow users to select an answer for each question and provide feedback on whether the answer was correct or incorrect. At the end of the quiz, the user's score should be displayed. You will use state to manage the questions and user responses and create components to display the quiz questions and handle user interactions."
-      //   ],
-      //   difficulty: "Hard",
-      //   averageTime: '6~8',
-      // },
+      {
+        id: 10,
+        category: "React Js",
+        date: "08.10.2023",
+        author: "Florent Zejna",
+        jobPosition: "Software Engineer",
+        title: "Create a basic quiz app",
+        description: "Create a basic quiz app. Users should be able to select an answer for each question and see their score at the end of the quiz.",
+        details: [
+          "In this assignment, you will create a basic quiz application using React. The application should allow users to select an answer for each question and provide feedback on whether the answer was correct or incorrect. At the end of the quiz, the user's score should be displayed. You will use state to manage the questions and user responses and create components to display the quiz questions and handle user interactions."
+        ],
+        difficulty: "Hard",
+        averageTime: '6~8',
+      },
       // {
       //   id: 11,
       //   category: "React Js",
