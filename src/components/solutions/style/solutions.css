@@ -283,3 +283,18 @@ form input{
     padding: 16px;
     border-radius: 16px;
 }
+.quiz-restartButton,
+.quiz-nextButton{
+    outline: none;
+    background-color: lightsteelblue;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 10px;
+
+}
+
+.quizMessage{
+    font-weight: 700;
+    font-size: 25px;
+    margin-top: 20px;
+}
