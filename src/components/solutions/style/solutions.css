@@ -298,3 +298,12 @@ form input{
     font-size: 25px;
     margin-top: 20px;
 }
+.quizWrongAnswer{
+    background-color: red;
+    color: white;
+}
+
+.quizRightAnswer{
+    background-color: green;
+    color: white;
+}

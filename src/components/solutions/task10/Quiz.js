@@ -89,24 +89,22 @@ function Quiz() {
         <div className="question-container">
           <h1>Question {currentQuestion + 1}</h1>
           <h2>{questions[currentQuestion].text}</h2>
-          <h3>Score: {score}</h3>
           <div className="answer-ul">
             {questions[currentQuestion].answers.map((answers) => {
               return (
                 <button
                   onClick={() => answerClicked(answers.isCorrect, answers.id)}
-                  style={{
-                    backgroundColor: selected
-                      ? answers.isCorrect
-                        ? "#009900"
-                        : answers.id === selected
-                        ? "#AF0B0B"
-                        : null
-                      : null,
-                  }}
                   disabled={selected}
                   key={answers.id}
-                  className={`answer-list`}
+                  className={`answer-list ${
+                    selected
+                      ? answers.isCorrect
+                        ? "quizRightAnswer"
+                        : answers.id === selected
+                        ? "quizWrongAnswer"
+                        : null
+                      : null
+                  }`}
                 >
                   {answers.text}
                 </button>
