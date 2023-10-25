@@ -93,7 +93,6 @@ function Calculator() {
             /
           </button>
         </div>
-        {/* <h3>Your result is :</h3> */}
         <h1 className="calculator-results">{results}</h1>
       </div>
     </div>
