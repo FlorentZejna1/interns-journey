@@ -176,22 +176,22 @@ export const assignments = [
         difficulty: "Hard",
         averageTime: '6~8',
       },
-      // {
-      //   id: 11,
-      //   category: "React Js",
-      //   date: "08.10.2023",
-      //   author: "Florent Zejna",
-      //   jobPosition: "Software Engineer",
-      //   title: "Create a basic calculator",
-      //   description: "Create a basic calculator app that allows the user to add, subtract, multiply, and divide two numbers.",
-      //   details: [
-      //     "The calculator app should have input fields for the two numbers and buttons for each of the four basic operations.",
-      //     "When the user inputs the two numbers and clicks one of the operation buttons, the app should perform the corresponding operation and display the result.",
-      //     "The app should handle basic error cases, such as dividing by zero or entering non-numeric values."
-      //   ],
-      //   difficulty: "Hard",
-      //   averageTime: '6~8',
-      // },
+      {
+        id: 11,
+        category: "React Js",
+        date: "08.10.2023",
+        author: "Florent Zejna",
+        jobPosition: "Software Engineer",
+        title: "Create a basic calculator",
+        description: "Create a basic calculator app that allows the user to add, subtract, multiply, and divide two numbers.",
+        details: [
+          "The calculator app should have input fields for the two numbers and buttons for each of the four basic operations.",
+          "When the user inputs the two numbers and clicks one of the operation buttons, the app should perform the corresponding operation and display the result.",
+          "The app should handle basic error cases, such as dividing by zero or entering non-numeric values."
+        ],
+        difficulty: "Hard",
+        averageTime: '6~8',
+      },
       // {
       //   id: 12,
       //   category: "React Js",
