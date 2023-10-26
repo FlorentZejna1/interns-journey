@@ -192,52 +192,52 @@ export const assignments = [
         difficulty: "Hard",
         averageTime: '6~8',
       },
-      // {
-      //   id: 12,
-      //   category: "React Js",
-      //   date: "08.10.2023",
-      //   author: "Florent Zejna",
-      //   jobPosition: "Software Engineer",
-      //   title: "Create a simple counter app",
-      //   description: "Create a simple counter app that allows the user to increment or decrement a number displayed on the screen.",
-      //   details: [
-      //     "The counter app should have a button to increment the number and a button to decrement the number.",
-      //     "The app should display the current value of the number on the screen, and update the value when the user clicks the increment or decrement button."
-      //   ],
-      //   difficulty: "Hard",
-      //   averageTime: '6~8',
-      // },
-      // {
-      //   id: 13,
-      //   category: "React Js",
-      //   date: "08.10.2023",
-      //   author: "Florent Zejna",
-      //   jobPosition: "Software Engineer",
-      //   title: "Create a stopwatch app",
-      //   description: "Create a stopwatch app that displays the elapsed time in minutes, seconds, and milliseconds. The user should be able to start, pause, and reset the timer.",
-      //   details: [
-      //     "The stopwatch app should have buttons to start, pause, and reset the timer.",
-      //     "The app should display the elapsed time in minutes, seconds, and milliseconds, and update the display every millisecond.",
-      //     "When the user clicks the start button, the timer should start counting up from 0. When the user clicks the pause button, the timer should stop counting. When the user clicks the reset button, the timer should reset to 0."
-      //   ],
-      //   difficulty: "Hard",
-      //   averageTime: '6~8',
-      // },
-      // {
-      //   id: 14,
-      //   category: "React Js",
-      //   date: "08.10.2023",
-      //   author: "Florent Zejna",
-      //   jobPosition: "Software Engineer",
-      //   title: "Create a component that displays a random quote",
-      //   description: "Create a component that displays a random quote from a list of quotes. Allow the user to click a button to display a new quote.",
-      //   details: [
-      //     "The quote component should have a button to display a new quote.",
-      //     "The app should have a list of quotes to choose from, and each time the user clicks the button, a random quote should be displayed on the screen."
-      //   ],
-      //   difficulty: "Hard",
-      //   averageTime: '6~8',
-      // },
+      {
+        id: 12,
+        category: "React Js",
+        date: "08.10.2023",
+        author: "Florent Zejna",
+        jobPosition: "Software Engineer",
+        title: "Create a simple counter app",
+        description: "Create a simple counter app that allows the user to increment or decrement a number displayed on the screen.",
+        details: [
+          "The counter app should have a button to increment the number and a button to decrement the number.",
+          "The app should display the current value of the number on the screen, and update the value when the user clicks the increment or decrement button."
+        ],
+        difficulty: "Hard",
+        averageTime: '6~8',
+      },
+      {
+        id: 13,
+        category: "React Js",
+        date: "08.10.2023",
+        author: "Florent Zejna",
+        jobPosition: "Software Engineer",
+        title: "Create a stopwatch app",
+        description: "Create a stopwatch app that displays the elapsed time in minutes, seconds, and milliseconds. The user should be able to start, pause, and reset the timer.",
+        details: [
+          "The stopwatch app should have buttons to start, pause, and reset the timer.",
+          "The app should display the elapsed time in minutes, seconds, and milliseconds, and update the display every millisecond.",
+          "When the user clicks the start button, the timer should start counting up from 0. When the user clicks the pause button, the timer should stop counting. When the user clicks the reset button, the timer should reset to 0."
+        ],
+        difficulty: "Hard",
+        averageTime: '6~8',
+      },
+      {
+        id: 14,
+        category: "React Js",
+        date: "08.10.2023",
+        author: "Florent Zejna",
+        jobPosition: "Software Engineer",
+        title: "Create a component that displays a random quote",
+        description: "Create a component that displays a random quote from a list of quotes. Allow the user to click a button to display a new quote.",
+        details: [
+          "The quote component should have a button to display a new quote.",
+          "The app should have a list of quotes to choose from, and each time the user clicks the button, a random quote should be displayed on the screen."
+        ],
+        difficulty: "Hard",
+        averageTime: '6~8',
+      },
       // {
       //   id: 15,
       //   category: "React Js",
