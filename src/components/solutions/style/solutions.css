@@ -308,8 +308,53 @@ form input{
     color: white;
 }
 
-.stopwatch-container{
+.counter-container{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: gray;
+    height: 50vh;
+    border-radius: 50px;
+    width: 25%;
+    margin: 0 auto;
+}
+
+.counter-number{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: #202020;
+    border-radius: 20px;
+    width: 100px;
+    height: 100px;
+    box-shadow: inset 6px 6px 10px 0 rgba(0, 0, 0, 0.2), inset -6px -6px 10px 0 rgba(255, 255, 255, 0.5);
+    
+}
+
+.button-continer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    padding-top: 20px
+}
+
+.counterButton{
+    margin: 10px;
+    height: 40px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+}
+
+.counterButton:hover{
+    transform: scale(1.1);
+    background-color: wheat;
+  }
+.stopwatch-container{
+  display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
