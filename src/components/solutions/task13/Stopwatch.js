@@ -21,7 +21,7 @@ function Stopwatch() {
   };
 
   const handleStop = () => {
-    setStart(false);
+    setStart(!start);
   };
 
   const handleReset = () => {
