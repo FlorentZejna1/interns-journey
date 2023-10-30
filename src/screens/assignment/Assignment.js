@@ -15,6 +15,7 @@ import Solution12 from "../../components/solutions/task12/Solution12";
 import Solution13 from "../../components/solutions/task13/Solution13";
 import Solution14 from "../../components/solutions/task14/Solution14";
 import Solution15 from "../../components/solutions/task15/Solution15";
+import Solution16 from "../../components/solutions/task16/Solution16";
 import "./assignment.css";
 import "../../components/solutions/style/solutions.css"
 
@@ -49,7 +50,8 @@ const Assignment = () => {
     Solution12,
     Solution13,
     Solution14,
-    Solution15
+    Solution15,
+    Solution16,
   ];
   const ComponentToRender =
     components[location.state !== null && location.state.assignment.id - 1];
