@@ -1,19 +1,6 @@
 import React, { useState } from "react";
-import MovieList from "./MovieList";
 
-function SearchBar() {
-  const [search, setSearch] = useState("");
-  const [movie, setMovie] = useState("hulk");
-
-  const handleChange = (e) => {
-    setSearch(e.target.value);
-  };
-
-  const handleSubmit = () => {
-    setMovie(search);
-    setSearch("");
-  };
-
+function SearchBar({ search, handleChange, handleSubmit }) {
   return (
     <>
       <input
@@ -25,7 +12,6 @@ function SearchBar() {
       <button className="movie-button" onClick={handleSubmit}>
         Search
       </button>
-      <MovieList movie={movie} />
     </>
   );
 }

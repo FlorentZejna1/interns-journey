@@ -403,7 +403,7 @@ form input {
 }
 
 .movie-input {
-    margin-top: 20px;
+    margin-top: 55px;
     margin-right: 20px;
     width: 50%;
     border-radius: 20px;
@@ -412,11 +412,12 @@ form input {
 }
 
 .movie-button {
-    background-color: cadetblue;
+    background-color: rgb(54, 113, 115);
     border-radius: 20px;
     text-align: center;
     width: 100px;
     outline: none;
+    color: white;
 }
 
 .movie-button:hover,
@@ -435,12 +436,18 @@ form input {
 .movie-holder {
     display: flex;
     flex-flow: wrap;
-    padding-top: 20px;
+    padding-top: 85px;
 }
 
 .movie-emptyField {
-    margin-left: 35%;
-}
+    padding: 15px;
+    margin-left: 33%;
+    color: white;
+    width: 30%;
+    height: 20%;
+    font-size: 50px;
+    margin-top: 50px;
+    }
 
 .searchResult {
     padding: 10px;
@@ -452,6 +459,15 @@ form input {
     width: 25%;
 }
 
+.searchResult-error{
+    margin-left: 33%;
+    color: white;
+    width: 30%;
+    height: 20%;
+    border-radius: 30px;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
 .searchImage {
     width: 75%;
     height: 75%;
