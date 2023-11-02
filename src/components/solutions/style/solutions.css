@@ -352,7 +352,8 @@ form input{
 .counterButton:hover{
     transform: scale(1.1);
     background-color: wheat;
-  }
+}
+
 .stopwatch-container{
   display: flex;
     justify-content: center;
@@ -461,3 +462,41 @@ input[type=number]::-webkit-outer-spin-button {
     font-size: 30px;
     font-weight: 700;
 }
+
+.quote-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+    height: 50vh;
+    margin: 0 auto;
+    background-color: rgba(112, 79, 109, 0.555);
+    width: 50%;
+    border-radius: 50px;
+    box-shadow: inset 6px 6px 10px 0 rgba(0, 0, 0, 0.2), inset -6px -6px 10px 0 rgba(255, 255, 255, 0.5);
+}
+
+.quote-text{
+    text-align: center;
+    font-size: 35px;
+    font-family: cursive;
+}
+.quote-author{
+    font-size: 20px;
+    color: #010101;
+}
+
+.quote-button{
+    background-color: whitesmoke;
+    color: #3b3939;
+    border-radius: 10px;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.quote-button:focus{
+    outline: none;
+}
+
+  
