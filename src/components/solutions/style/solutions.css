@@ -385,3 +385,79 @@ form input{
     outline: none;
     transform: scale(1.1);
 }
+
+.calculatorApp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.calculator-conatiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: darkgray;
+    width: 35%;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.calculator-operations{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 100vh;
+}
+
+.calculatorSum,
+.calculatorSub,
+.calculatorMul,
+.calculatorDiv{
+    width: 50px;
+    height: 50px;
+    font-size: large;
+    border-radius: 10px;
+    margin: 20px;
+    outline: none;
+    background-color: #5a5454;
+    color: white;
+}
+
+.calculator-operations button:hover{
+    transform: scale(1.1);
+    background-color: #3b3939;
+    outline: none;
+}
+
+.calculator-conatiner input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button { 
+      -webkit-appearance: none; 
+      margin: 0; 
+}
+
+.calculator-input{
+    display: flex;
+    justify-content: space-between;
+    width: 50vh;
+    padding-top: 20px;
+    
+}
+.calculatorInput-field{
+    border-radius: 10px;
+    background: rgb(128, 128, 128);
+}
+.calculatorInput-field::placeholder{
+    padding: 10px;
+    color: white;
+}
+.calculatorInput-field:active,
+.calculatorInput-field:hover{
+    cursor: pointer;
+}
+
+.calculator-results{
+    font-size: 30px;
+    font-weight: 700;
+}
