@@ -1,30 +1,31 @@
-
-.form-container{
+.form-container {
     display: flex;
     justify-content: center;
     padding: 5em;
     background-color: rgb(15, 49, 49);
 }
-form input{
+
+form input {
     width: 100%;
     padding: 10px 15px;
     margin: 5px 0;
 }
-.submit-button{
-   border-radius: 10px;
-   height: 3rem;
-   width: 5rem; 
+
+.submit-button {
+    border-radius: 10px;
+    height: 3rem;
+    width: 5rem;
 }
 
-.submit-button:hover{
+.submit-button:hover {
     background-color: aquamarine;
 }
 
-.submit-button:focus{
+.submit-button:focus {
     outline: none;
 }
 
-.button{
+.button {
     background-color: rgb(57, 18, 93);
     border-radius: 10px;
     width: 100px;
@@ -32,16 +33,16 @@ form input{
     color: wheat;
 }
 
-.button:hover{
+.button:hover {
     background-color: rgb(19, 19, 135);
 }
 
-.button:focus{
+.button:focus {
     outline: none;
 }
 
 
-.todo-container{
+.todo-container {
     display: flex;
     background: #202020;
     align-items: center;
@@ -52,16 +53,16 @@ form input{
     width: 50%;
 }
 
-.input-container{
+.input-container {
     width: 100%;
 }
 
-.input-field{
+.input-field {
     width: 100%;
     margin: 0;
 }
 
-.listed-container{
+.listed-container {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -69,7 +70,7 @@ form input{
     flex-direction: column;
 }
 
-.list-items{
+.list-items {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -82,9 +83,9 @@ form input{
 .list-items:hover {
     background: #3b3939;
     color: #fff;
-  }
+}
 
-.list-items-checkbox{
+.list-items-checkbox {
     display: flex;
     margin-right: 1rem;
     align-items: center;
@@ -101,11 +102,11 @@ form input{
     overflow: hidden;
 }
 
-.error-label{
+.error-label {
     color: red;
 }
 
-.delete-button{
+.delete-button {
     background: #980e0e;
     font-size: 1rem;
     margin-left: auto;
@@ -174,7 +175,7 @@ form input{
     color: red;
 }
 
-.weather-container{
+.weather-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -186,7 +187,7 @@ form input{
     border-radius: 25px;
 }
 
-.weatherInput-container{
+.weatherInput-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -194,39 +195,43 @@ form input{
     padding: 10px;
 }
 
-.weather-input{
+.weather-input {
     border-radius: 10px;
     background: rgba(0, 0, 0, 0.2);
     border: none;
     color: white;
     padding: 5px;
 }
-.weather-input::placeholder{
+
+.weather-input::placeholder {
     color: white;
 }
+
 .weather-input:hover,
 .weather-input:focus,
-.weather-input:active{
+.weather-input:active {
     border: none;
     outline: none;
     cursor: pointer;
 }
 
-.weather-icon{
+.weather-icon {
     height: 250px;
     width: 250px;
 }
-.weather-temp{
-    font-size: 60px ;
+
+.weather-temp {
+    font-size: 60px;
 }
-.weather-information{
+
+.weather-information {
     display: flex;
     justify-content: space-between;
     width: 75%;
     flex-direction: row;
 }
 
-.weatherInfo{
+.weatherInfo {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -235,7 +240,7 @@ form input{
     font-size: 1.2em;
 }
 
-.quiz-container{
+.quiz-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -243,7 +248,7 @@ form input{
     height: 100vh;
 }
 
-.question-container{
+.question-container {
     background-color: darkgray;
     display: flex;
     justify-content: center;
@@ -255,14 +260,14 @@ form input{
     padding: 20px;
 }
 
-.answer-ul{
+.answer-ul {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
-.answer-list{
+.answer-list {
     width: 75vh;
     text-align: center;
     padding: 16px;
@@ -272,7 +277,7 @@ form input{
     margin-top: 8px;
 }
 
-.final-results{
+.final-results {
     background-color: darkgray;
     display: flex;
     justify-content: center;
@@ -283,8 +288,9 @@ form input{
     padding: 16px;
     border-radius: 16px;
 }
+
 .quiz-restartButton,
-.quiz-nextButton{
+.quiz-nextButton {
     outline: none;
     background-color: lightsteelblue;
     border-radius: 10px;
@@ -293,22 +299,23 @@ form input{
 
 }
 
-.quizMessage{
+.quizMessage {
     font-weight: 700;
     font-size: 25px;
     margin-top: 20px;
 }
-.quizWrongAnswer{
+
+.quizWrongAnswer {
     background-color: red;
     color: white;
 }
 
-.quizRightAnswer{
+.quizRightAnswer {
     background-color: green;
     color: white;
 }
 
-.counter-container{
+.counter-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -320,7 +327,7 @@ form input{
     margin: 0 auto;
 }
 
-.counter-number{
+.counter-number {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -330,10 +337,10 @@ form input{
     width: 100px;
     height: 100px;
     box-shadow: inset 6px 6px 10px 0 rgba(0, 0, 0, 0.2), inset -6px -6px 10px 0 rgba(255, 255, 255, 0.5);
-    
+
 }
 
-.button-continer{
+.button-continer {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -341,7 +348,7 @@ form input{
     padding-top: 20px
 }
 
-.counterButton{
+.counterButton {
     margin: 10px;
     height: 40px;
     border-radius: 20px;
@@ -349,7 +356,7 @@ form input{
     border: none;
 }
 
-.counterButton:hover{
+.counterButton:hover {
     transform: scale(1.1);
     background-color: wheat;
 }
@@ -361,7 +368,8 @@ form input{
     flex-direction: column;
     background-color: gray;
 }
-.stopwatch-timer{
+
+.stopwatch-timer {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -372,22 +380,23 @@ form input{
     color: #202020;
     box-shadow: inset 6px 6px 10px 0 rgba(0, 0, 0, 0.2), inset -6px -6px 10px 0 rgba(255, 255, 255, 0.5);
 }
-.stopwatch-button{
+
+.stopwatch-button {
     margin: 40px;
 }
-.stopwatchButton{
+
+.stopwatchButton {
     margin: 10px;
     height: 50px;
     width: 50px;
     border-radius: 50px;
 }
 
-.stopwatchButton:hover{
+.stopwatchButton:hover {
     outline: none;
     transform: scale(1.1);
 }
-
-.calculatorApp{
+  .calculatorApp{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -499,4 +508,182 @@ input[type=number]::-webkit-outer-spin-button {
     outline: none;
 }
 
-  
+.movie-search {
+    height: auto;
+    width: 100%;
+}
+
+.movie-input {
+    margin-top: 55px;
+    margin-right: 20px;
+    width: 50%;
+    border-radius: 20px;
+    padding-left: 10px;
+    outline: none;
+}
+
+.movie-button {
+    background-color: rgb(54, 113, 115);
+    border-radius: 20px;
+    text-align: center;
+    width: 100px;
+    outline: none;
+    color: white;
+}
+
+.movie-button:hover,
+.movie-button:focus {
+    outline: none;
+}
+
+.movie-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: auto;
+}
+
+.movie-holder {
+    display: flex;
+    flex-flow: wrap;
+    padding-top: 85px;
+}
+
+.movie-emptyField {
+    padding: 15px;
+    margin-left: 33%;
+    color: white;
+    width: 30%;
+    height: 20%;
+    font-size: 50px;
+    margin-top: 50px;
+    }
+
+.searchResult {
+    padding: 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 25%;
+}
+
+.searchResult-error{
+    margin-left: 33%;
+    color: white;
+    width: 30%;
+    height: 20%;
+    border-radius: 30px;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.searchImage {
+    width: 75%;
+    height: 75%;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.searchImage:hover {
+    transform: scale(1.1);
+}
+
+.searchTitle {
+    width: 100%;
+    font-size: 20px;
+    padding-top: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.searchTitle:hover {
+    overflow: visible;
+    white-space: wrap;
+    height: auto;
+}
+
+.movie-info {
+    width: 75%;
+}
+
+.searchYear {
+    font-size: 20px;
+    padding-bottom: 0;
+}
+
+.movieDetails-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.movieDetails-Image {
+    margin-left: 100px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.movieDetails-Image:hover {
+    transform: scale(1.02);
+}
+
+.movieDetails-info {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    padding-left: 20px;
+}
+
+.movieDetails-title {
+    padding-bottom: 40px;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.movieDetails-plot {
+    font-family: cursive;
+    padding-bottom: 30px;
+}
+
+.movieDetails-raitingImg {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    margin-top: 2px;
+}
+
+.movieDetails-rating {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 80%;
+    padding-top: 50px;
+}
+
+.movieDetails-ratingInfo {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 0;
+}
+
+.movieDetails-button {
+    background-color: #FAFBFC;
+    border: 1px solid rgba(27, 31, 35, 0.15);
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0, rgba(255, 255, 255, 0.25) 0 1px 0 inset;
+    box-sizing: border-box;
+    color: #24292E;
+    cursor: pointer;
+    font-family: system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    font-size: 14px;
+    font-weight: 500;
+    padding: 6px 16px;
+}
